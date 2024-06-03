@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: orange;
+            margin: 0; /* Remove default margin */
+        }
+
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        /* Control the left side */
+        .left {
+            left: 0;
+            background-color:white;
+        }
+
+        /* Control the right side */
+        .right {
+            right: 0;
+            background-color:white;
+        }
+
+        /* If you want the content centered horizontally and vertically */
+        .centered {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* text-align: center; */
+        }
+
+        /* Style the image inside the centered container, if needed */
+        .centered img {
+            width: 450px;
+            border-radius: 50%;
+        }
+
+        .centered1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* text-align: center; */
+        }
+
+        /* Style the image inside the centered container, if needed */
+        .centered1 img {
+            width: 600px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: white;" class="split left">
+        <div class="centered">
+            <h1>Compete</h1>
+            <h3>Showcase Your Coding Skills</h3>
+            <p style="font-size: larger;"> Welcome to the Developer Society! <br> We're a community of passionate developers <br> dedicated to sharing knowledge</p>
+            <button>Learn more</button> &nbsp; &nbsp; <button>Participate</button>
+        </div>
+    </div>
+    
+    <div style="background-color: white;" class="split right">
+        <div class="centered1">
+            <img src="compete-showcaseskills.png" alt=" cube">
+        </div>
+    </div>
+</body>
+</html>

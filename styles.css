@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(255, 255, 255); /* Change border color to white */
+    box-shadow: 0 2px 0 white; /* Add white border beneath the black border */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px; /* Adjust the space between the logo and the left nav links */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links-left {
+    flex-grow: 1; /* This will make the left nav links take up the remaining space */
+}
+
+.nav-links-left li {
+    margin: 0 8px; /* Adjust spacing between left links */
+}
+
+.nav-links-right {
+    margin-left: auto; /* Pushes the right links to the right */
+}
+
+.nav-links-right li {
+    margin: 0 15px; /* Adjust spacing between right links */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-links a img {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.sign-in {
+    color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.login {
+    color: white;
+    background-color: rgb(253, 42, 77); /* More pinkish color */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.content {
+    position: relative;
+    height: 100vh;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 27px;
+    margin-top: 20px;
+}
+.join-button {
+    background-color: rgb(253, 42, 77); /* Pinkish color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.dropdown-icon {
+    position: absolute;
+    top: 50%;
+    right: 0px; /* Adjust the right position as needed */
+    transform: translateY(-50%) rotate(180deg); /* Rotate the arrow and center it vertically */
+}
+
+
+
+.dropdown-icon img {
+    width: 30px; /* Adjust the size of the arrow icon */
+    transform: rotate(90deg); /* Rotate the arrow to point to the right */
+    border-radius: 50%; /* Make the background circular */
+    background-color: #FFFFFF; /* White background color */
+    padding: 5px; /* Adjust the padding as needed */
+    display: block;
+    margin: auto; /* Center the arrow horizontally */
+}
+
+.back-icon {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+}
+
+.back-icon img {
+    width: 30px; /* Adjust the size of the arrow icon */
+    transform: rotate(-270deg); /* Rotate the arrow to point to the left */
+    border-radius: 50%; /* Make the background circular */
+    background-color: #FFFFFF; /* White background color */
+    padding: 5px; /* Adjust the padding as needed */
+    display: block;
+    margin: auto; /* Center the arrow horizontally */
+}
+.link-heading {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the spacing between them */
+    color: #FFFFFF; /* Text color */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #FFFFFF; /* White border */
+    padding: 8px 15px; /* Adjusted padding for a larger button-like appearance */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+.link-heading:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent background on hover */
+}
+
+.scroll-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-heading {
+    display: inline; /* Display the headings inline */
+    margin-right: 20px; /* Add some spacing between the headings */
+   
+
+}
+
+.image-container {
+    display: flex; /* Use flexbox for the image container */
+    justify-content: center; /* Align items horizontally */
+}
+
+.image-box {
+    flex: 1; /* Each image box takes up equal space */
+    position: relative; /* Positioning for text overlay */
+    margin: 0 10px; /* Add some margin between image boxes */
+}
+
+.image-box img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+.image-text {
+    position: absolute; /* Position the text relative to its container */
+    color: #FF69B4; /* Pinkish color */
+    font-weight: bold;
+    padding: 5px;
+    top: 10px; /* Adjust top position for Live Now */
+    right: 10px; /* Adjust right position for Live Now */
+    bottom: 10px; /* Adjust bottom position for Jump In */
+    right: 10px; /* Adjust right position for Jump In */
+    margin: 0; /* Remove any default margin */
+}
+.scroll-content1 {
+    background-color: black; /* Set the background color to black */
+}
+
+
+

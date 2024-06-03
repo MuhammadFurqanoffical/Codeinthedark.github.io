@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Centered Images</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    margin: 40px; /* Add spacing between images */
+  }
+
+  .image1 {
+    width: 200px; /* Decreased width for Image 1 */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Add position relative */
+    top: 20px; /* Set top position */
+    left: 300px; /* Set left position */
+  }
+
+  .image2 {
+    width: 400px; /* Increased width for Image 2 */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .text-container {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div>
+    <img src="BUDS_LOGO.png" alt="Image 1" class="image image1">
+    <div class="text-container">
+      <p>The Code in the Dark competition is a thrilling event where developers
+         showcase their skills under intense conditions. Participants are challenged to code complex designs and functionalities from scratch, without the aid of previews or live updates.</p>
+    </div>
+  </div>
+  <img src="devopsseminar-lab-pic.png" alt="Image 2" class="image image2">
+</div>
+
+</body>
+</html>
